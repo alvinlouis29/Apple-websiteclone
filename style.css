@@ -84,7 +84,7 @@ body {
 
 .main-content p {
   font-size: 20px;
-  font-weight: 5;
+  font-weight: normal;
 }
 
 .hero {
@@ -149,6 +149,10 @@ body {
   flex: 1;
 }
 
+.aside-cont a {
+  width: 100%;
+}
+
 .input[type=text] {
   width: 100%;
   border: 2px solid #474646;
@@ -168,4 +172,67 @@ body {
 
 .navbar-cont a:hover:not(.active) {
   background-color: #111;
+}
+
+.aside {
+  max-width: 1440px;
+  min-width: 1250px;
+  margin: 0 auto;
+}
+
+.aside ul {
+  display: flex;
+  max-height: 1135px;
+  min-height: 175px;
+  min-width: 980px;
+  margin: 0 auto;
+}
+
+.aside-cont {
+  width: 100%;
+}
+
+.aside-cont img {
+  display: flex;
+  width: 100%;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 980px;
+  padding: 2em 0 3em;
+  font-size: 10px;
+  color: #6e6e6e;
+}
+
+.footer-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-two {
+  padding-top: 16px;
+  display: flex;
+}
+
+.footer-two li {
+  display: inline-block;
+  float: none;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: 1px solid #ccc;
+}
+
+.footer-one li {
+  display: inline-block;
+  float: none;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: 1px solid #ccc;
+}
+
+.footer-two ul {
+  float: right;
+  display: flex;
 }
