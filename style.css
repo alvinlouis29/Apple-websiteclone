@@ -1,5 +1,6 @@
 html,
 body,
+footer,
 div,
 span,
 nav,
@@ -100,8 +101,11 @@ body {
 }
 
 .navbar {
-  background: #466368;
-  background: linear-gradient to (top bottom, #a2a5a4, #4f5050);
+  background: rgb(46, 46, 47);
+  background: -moz-linear-gradient(0deg, rgb(46, 46, 47) 0%, rgb(105, 105, 158) 49%, rgba(184, 191, 193, 0.844) 90%);
+  background: -webkit-linear-gradient(0deg, rgb(46, 46, 47) 0%, rgb(80, 80, 83) 49%, rgba(184, 191, 193, 0.844) 90%);
+  background: linear-gradient(0deg, rgb(47, 47, 48) 0%, rgb(82, 82, 85) 49%, rgba(184, 191, 193, 0.844) 90%);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr="#2e2e2f", endColorstr="#b8bfc1", GradientType=1);
   width: 975px;
   height: 40px;
   margin-top: 90px;
@@ -172,6 +176,14 @@ body {
   width: 100%;
 }
 
+.footer-one a {
+  color: rgb(0, 136, 204);
+}
+
+.list a {
+  color: #08c;
+}
+
 .navbar-cont a {
   display: block;
   color: white;
@@ -188,9 +200,11 @@ body {
   max-width: 1420px;
   min-width: 1200px;
   margin: 0 auto;
+  list-style-type: none;
 }
 
 .asidenav ul {
+  list-style-type: none;
   display: flex;
   max-height: 1067px;
   min-height: 160px;
@@ -198,7 +212,9 @@ body {
   margin: 0 auto;
 }
 
-.footer {
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   margin: 0 auto;
   width: 980px;
   padding: 10px 0 15px;
@@ -217,12 +233,8 @@ body {
   display: flex;
 }
 
-.footer-two ul {
-  float: right;
-  display: flex;
-}
-
-.li {
+.list {
+  list-style: none;
   position: relative;
   display: inline-block;
   float: none;
