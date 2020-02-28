@@ -100,6 +100,8 @@ body {
 }
 
 .navbar {
+  background: #466368;
+  background: linear-gradient to (top bottom, #a2a5a4, #4f5050);
   width: 975px;
   height: 40px;
   margin-top: 90px;
@@ -149,10 +151,6 @@ body {
   flex: 1;
 }
 
-.aside-cont a {
-  width: 100%;
-}
-
 .input[type=text] {
   width: 100%;
   border: 2px solid #474646;
@@ -160,6 +158,18 @@ body {
   border-radius: 4px;
   box-sizing: border-box;
   flex: 1;
+}
+
+.aside-cont {
+  width: 100%;
+}
+
+.aside-cont a {
+  width: 100%;
+}
+
+.aside-cont img {
+  width: 100%;
 }
 
 .navbar-cont a {
@@ -174,33 +184,24 @@ body {
   background-color: #111;
 }
 
-.aside {
-  max-width: 1440px;
-  min-width: 1250px;
+.asidenav {
+  max-width: 1420px;
+  min-width: 1200px;
   margin: 0 auto;
 }
 
-.aside ul {
+.asidenav ul {
   display: flex;
-  max-height: 1135px;
-  min-height: 175px;
-  min-width: 980px;
+  max-height: 1067px;
+  min-height: 160px;
+  min-width: 950px;
   margin: 0 auto;
-}
-
-.aside-cont {
-  width: 100%;
-}
-
-.aside-cont img {
-  display: flex;
-  width: 100%;
 }
 
 .footer {
   margin: 0 auto;
   width: 980px;
-  padding: 2em 0 3em;
+  padding: 10px 0 15px;
   font-size: 10px;
   color: #6e6e6e;
 }
@@ -216,23 +217,16 @@ body {
   display: flex;
 }
 
-.footer-two li {
-  display: inline-block;
-  float: none;
-  margin-left: 0.6em;
-  padding-left: 0.6em;
-  border-left: 1px solid #ccc;
-}
-
-.footer-one li {
-  display: inline-block;
-  float: none;
-  margin-left: 0.6em;
-  padding-left: 0.6em;
-  border-left: 1px solid #ccc;
-}
-
 .footer-two ul {
   float: right;
   display: flex;
+}
+
+.li {
+  position: relative;
+  display: inline-block;
+  float: none;
+  margin-left: 6px;
+  padding-left: 6px;
+  border-left: 1px solid #ccc;
 }
