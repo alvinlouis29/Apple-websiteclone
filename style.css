@@ -103,7 +103,7 @@ body {
 }
 
 .navbar {
-  background: radial-gradient(rgb(53, 52, 52), rgb(83, 83, 83));
+  background: linear-gradient(rgb(134, 134, 134), rgb(128, 128, 128), rgb(107, 107, 107), rgb(99, 99, 99));
   width: 975px;
   height: 40px;
   margin-top: 90px;
