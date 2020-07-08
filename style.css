@@ -30,9 +30,16 @@ p {
 article,
 aside,
 nav,
-section,
-footer {
+menu,
+footer,
+section
+ {
   display: block;
+}
+
+ol,
+ul {
+  list-style: none;
 }
 
 html {
@@ -44,7 +51,20 @@ html {
 body {
   width: 100%;
   height: 100%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1;
+  font-family:
+  "Lucida Grande",  "Lucida Sans Unicode",
+  "Lucida Sans", "Lucida Sans Regular",
+  Geneva, Verdana,
+  sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .container {
@@ -89,77 +109,100 @@ body {
 }
 
 .hero {
-  max-width: 1420px;
-  min-width: 1200px;
   background: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
   background-repeat: no-repeat;
   background-position-y: 100%;
   height: 540px;
-  text-align: center;
   overflow: hidden;
-  margin: 0 auto;
-  padding: 0%;
-  border: 0;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 0;
 }
 
+
 .navbar {
-  width: 975px;
-  height: 40px;
-  margin-top: 90px;
+  width: 980px;
+  height: 35px;
+  position: absolute;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 5px;
-  font-size: 15px;
-  border: 1px  #000;
-  background: linear-gradient(rgb(134, 134, 134), rgb(128, 128, 128), rgb(107, 107, 107), rgb(99, 99, 99));
+  left: 0;
+  right: 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  border-radius: 4px;
+  top: 80px;
+  font-size: 16px;
+  background:
+  linear-gradient(to bottom,
+    rgb(134, 134, 134) 5%,
+    rgb(128, 128, 128) 50%,
+    rgb(107, 107, 107) 51%,
+    rgb(99, 99, 99) 8%,
+    rgb(121, 121, 121) 94%
+  );
+  border: 1px solid rgb(109, 109, 109);
 }
 
 .navbar-menu {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
-  overflow: hidden;
-  justify-content: center;
+  justify-content: space-between;
+  justify-items: center;
+  top: 20px;
 }
 
-.navbar-cont {
+.navbar-cont { 
   z-index: 2;
   width: 100%;
   height: 100%;
+  position: relative;
   border-right: 1px solid rgba(75, 75, 75, 0.5);
+  cursor: pointer;
 }
 
 .navbar-cont button {
-  float: inherit;
-  padding: 12.5px;
+  position: relative;
   top: 8px;
   background: transparent;
   border: none;
   color: white;
+  cursor: pointer;
   font-size: 14px;
 }
 
-.navbar-cont:not(:last-child) svg {
-  float: inherit;
-  padding: 8.5px;
-  top: 5px;
+.nav-item svg {
+  position: center;
 }
 
-.navbar-cont:last-child {
-  border: 0;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-  flex: 1;
+.navbar-cont:nth-child(9) {
+  position: relative;
+}
+
+.navbar-cont:not(:nth-child(9)):hover {
+  background: radial-gradient(rgb(53, 52, 52), rgb(83, 83, 83));
+}
+
+.navbar-cont:nth-child(9) input {
+  align:center;
+  border-radius: 20px;
+  width: 100px;
+  margin: 5px 0 0 0;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-cont:nth-child(9) svg {
+  float: left;
+  top: 10px;
+  left: 10px;
 }
 
 .aside-cont img {
   width: 100%;
-}
-
-.nav-cont:last-child input {
-  border-radius: 20px;
-  width: 100px;
-  background: transparent;
 }
 
 .aside-cont {
@@ -178,16 +221,17 @@ body {
   color: #08c;
 }
 
-.navbar-cont a {
-  display: block;
+.main-content {
+  top: 150px;
+  position: relative;
+  left: 0;
+  right: 0;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.navbar-cont a:hover:not(.active) {
-  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .asidenav {
@@ -207,11 +251,9 @@ body {
 }
 
 footer {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
   margin: 0 auto;
   width: 980px;
-  padding: 10px 0 15px;
+  padding: 2em 0 3em;
   font-size: 10px;
   color: #6e6e6e;
 }
