@@ -6,7 +6,7 @@ Additional description about the project and its features.
 
 ## Built With
 
-- html5, css3
+- I am creating a clone of this single page apple website from the archives using html and css,the project is focusing on backgrounds and gradients 
 
 👤 **Ssegawa Alvin Louis K**
 
