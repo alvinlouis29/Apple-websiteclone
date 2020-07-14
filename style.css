@@ -52,10 +52,13 @@ body {
   height: 100%;
   line-height: 1;
   font-family:
-    "Lucida Grande",  "Lucida Sans Unicode",
-    "Lucida Sans", "Lucida Sans Regular",
-    Geneva, Verdana,
-    sans-serif;
+      "Lucida Grande",
+      "Lucida Sans Unicode",
+      "Lucida Sans",
+      "Lucida Sans Regular",
+      Geneva,
+      Verdana,
+      sans-serif;
 }
 
 a {
@@ -85,7 +88,6 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-
 
 .main-content h1 {
   font-size: 67px;
@@ -135,11 +137,11 @@ a:hover {
   font-size: 16px;
   background:
   linear-gradient(to bottom,
-      rgb(134, 134, 134) 5%,
-      rgb(128, 128, 128) 50%,
-      rgb(107, 107, 107) 51%,
-      rgb(99, 99, 99) 8%,
-      rgb(121, 121, 121) 94%
+        rgb(134, 134, 134) 5%,
+        rgb(128, 128, 128) 50%,
+        rgb(107, 107, 107) 51%,
+        rgb(99, 99, 99) 8%,
+        rgb(121, 121, 121) 94%
   );
   border: 1px solid rgb(109, 109, 109);
 }
@@ -198,14 +200,13 @@ a:hover {
   transition: all 0.3s ease-in-out;
 }
 
-.input-icon2 { 
+.input-icon2 {
   width: 100%;
   margin-bottom: 10px;
 }
 
 .icon2 {
   position: relative;
-  top: 0px;
   left: 5px;
 }
 
