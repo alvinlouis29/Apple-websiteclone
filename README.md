@@ -1,6 +1,6 @@
 # Apple-websiteclone
 this project is intended to create a clone of the apple page 
-![screenshot](./app_screenshot.png)
+![screenshot](\images\screenshot.png)
 
 Additional description about the project and its features.
 
@@ -11,7 +11,6 @@ Additional description about the project and its features.
 👤 **Ssegawa Alvin Louis K**
 
 - Github: [@githubhandle](https://github.com/alvinlouis29)
-- Twitter: [@twitterhandle](https://twitter.com/louisssegawa)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle/alvin-louis-632026183)
 
 
