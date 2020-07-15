@@ -1,6 +1,6 @@
 # Apple-websiteclone
 this project is intended to create a clone of the apple page 
-![screenshot](\images\screenshot.png)
+![screenshot](images/screenshot.png)
 
 Additional description about the project and its features.
 
@@ -11,23 +11,18 @@ Additional description about the project and its features.
 👤 **Ssegawa Alvin Louis K**
 
 - Github: [@githubhandle](https://github.com/alvinlouis29)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle/alvin-louis-632026183)
+## Built With
 
+- HTML,
+- CSS
 
-Contributions, issues and feature requests are welcome!
+### Goal
 
-Feel free to check the [issues page](issues/).
+- To match the original Apple web page [here](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 
+## Live Webpage
+
+[Click Here](https://raw.githack.com/alvinlouis29/Apple-websiteclone/development/index.html)
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
