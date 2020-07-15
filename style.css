@@ -1,0 +1,279 @@
+html,
+body,
+footer,
+div,
+span,
+nav,
+aside,
+menu,
+ul,
+li,
+ol,
+form,
+table,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+nav,
+menu,
+footer,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+  font-family:
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    "Lucida Sans",
+    "Lucida Sans Regular",
+    Geneva,
+    Verdana,
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1440px;
+  min-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-content {
+  top: 150px;
+  position: relative;
+  left: 0;
+  right: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content h1 {
+  font-size: 67px;
+  font-weight: 100;
+  font-family: "Lato", sans-serif;
+  padding-bottom: 20px;
+}
+
+.main-content h2 {
+  font-weight: 100;
+  font-size: 32px;
+  font-family: "Lato", sans-serif;
+  width: 63%;
+  padding-bottom: 35px;
+  line-height: 32px;
+}
+
+.main-content p {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.hero {
+  background: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  height: 540px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+.navbar {
+  width: 980px;
+  height: 35px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  border-radius: 4px;
+  top: 80px;
+  font-size: 16px;
+  background:
+    linear-gradient(
+      to bottom,
+      rgb(134, 134, 134) 5%,
+      rgb(128, 128, 128) 50%,
+      rgb(107, 107, 107) 51%,
+      rgb(99, 99, 99) 8%,
+      rgb(121, 121, 121) 94%
+    );
+  border: 1px solid rgb(109, 109, 109);
+}
+
+.navbar-menu {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  top: 20px;
+}
+
+.icon {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.navbar-cont {
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-right: 1px solid rgba(75, 75, 75, 0.5);
+  cursor: pointer;
+}
+
+.navbar-cont button {
+  position: relative;
+  top: 8px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+
+.nav-item svg {
+  position: absolute;
+}
+
+.navbar-cont:nth-child(9) {
+  position: relative;
+  align-content: center;
+}
+
+.navbar-cont:not(:nth-child(9)):hover {
+  background: radial-gradient(rgb(53, 52, 52), rgb(83, 83, 83));
+}
+
+.navbar-cont:nth-child(9) input {
+  border-radius: 20px;
+  width: 100px;
+  margin: 5px 0 0 0;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-icon2 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon2 {
+  position: absolute;
+  padding-top: 10px;
+  left: 5px;
+}
+
+.aside-cont img {
+  width: 100%;
+}
+
+.aside-cont {
+  width: 100%;
+}
+
+.aside-cont a {
+  width: 100%;
+}
+
+.footer-one a {
+  color: rgb(0, 136, 204);
+}
+
+.list a {
+  color: #08c;
+}
+
+.asidenav {
+  max-width: 1420px;
+  min-width: 1200px;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.asidenav ul {
+  list-style-type: none;
+  display: flex;
+  max-height: 1067px;
+  min-height: 160px;
+  min-width: 950px;
+  margin: 0 auto;
+}
+
+footer {
+  margin: 0 auto;
+  width: 980px;
+  padding: 2em 0 3em;
+  font-size: 10px;
+  color: #6e6e6e;
+}
+
+.footer-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-two {
+  padding-top: 16px;
+  display: flex;
+}
+
+.list {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  float: none;
+  margin-left: 6px;
+  padding-left: 6px;
+  border-left: 1px solid #ccc;
+}
